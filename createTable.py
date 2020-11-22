@@ -36,8 +36,8 @@ class CreateTable:
         self.initDicHighs()
         for i in range(len(self.__rows)):
             for j in range(len(self.__rows[i])):
-                if self.__dicHighs[j] < len(self.__rows[i][j]):
-                    self.__dicHighs[j] = len(self.__rows[i][j])
+                if self.__dicHighs[j] < len(str(self.__rows[i][j])):
+                    self.__dicHighs[j] = len(str(self.__rows[i][j]))
         return True
 
 

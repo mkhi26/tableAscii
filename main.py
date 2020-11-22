@@ -11,7 +11,7 @@ columna1 = ["Primer Nombre", "Segundo Nombre", "Primer Apellido", "Segundo apell
 columna2 = ["Pedro", "Jose", "Calix", "Cruz", "24/12/1995", "Masculino"]
 columna3 = ["Daniela", "Sofia", "Perdomo", "Castro", "21/10/1994", "Femenino"]
 columna4 = ["Roberto", "Rolando", "Sifuentes", "Meza", "5/01/1999", "Masculino"]
-columna5 = ["Antonio", "Amilcar", "Velasquez", "Rodriguez", "26/12/1998", "Masculino"]
+columna5 = ["Antonio", "Amilcar", "Velasquez", "Rodriguez", 25, "Masculino"]
 
 # Se agregan las columnas a la tabla.
 table.addRow(columna1)
