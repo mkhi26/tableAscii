@@ -24,7 +24,7 @@ class CreateTable:
         :return: booleano
         """
         for i in range(self.__intColumns):
-            self.__dicHighs[i] = int(i)
+            self.__dicHighs[i] = 0
         return True
 
     def getStrHighs(self):
