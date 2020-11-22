@@ -13,11 +13,11 @@ columna3 = ["Daniela", "Sofia", "Perdomo", "Castro", "21/10/1994", "Femenino"]
 columna4 = ["Roberto", "Rolando", "Sifuentes", "Meza", "5/01/1999", "Masculino"]
 columna5 = ["Antonio", "Amilcar", "Velasquez", "Rodriguez", "26/12/1998", "Masculino"]
 
+# Se agregan las columnas a la tabla.
 table.addRow(columna1)
 table.addRow(columna2)
 table.addRow(columna3)
 table.addRow(columna4)
 table.addRow(columna5)
-
-
+#Se imprime la tabla.
 print(table.getTable())
